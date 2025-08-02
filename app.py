@@ -56,6 +56,7 @@ light_css = """
 
 dark_css = """
     <style>
+    
     body {
         background-color: #121212;
         color: #ffffff;
@@ -76,7 +77,9 @@ dark_css = """
         color: #ffffff;
         text-align: center;
         margin-top: 1rem;
+        
     }
+
     .footer {
         text-align: center;
         margin-top: 4rem;
@@ -91,7 +94,14 @@ dark_css = """
 """
 
 st.markdown(dark_css if theme == "Dark" else light_css, unsafe_allow_html=True)
-st.markdown('<div class="navbar">📘 StudyMate – Smart Q&A from PDFs</div>', unsafe_allow_html=True)
+navbar_html = f"""
+    <div class="navbar">
+        📘 StudyMate – Smart Q&A from PDFs
+        {'<span style="float:right;">👤 ' + st.session_state.username + '</span>' if st.session_state.username else ''}
+    </div>
+"""
+st.markdown(navbar_html, unsafe_allow_html=True)
+
 
 
 def show_auth():
