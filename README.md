@@ -133,6 +133,7 @@ Upload your subject PDF (e.g., DBMS Notes.pdf)
 Ask: "What is 2NF in normalization?"
 
 Get an instant, relevant answer extracted from your document!
+```
 
 ---
 
