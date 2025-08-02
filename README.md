@@ -6,11 +6,7 @@
 
 ---
 
-## 🚀 Live Demo
 
-> Coming soon... (Add your Streamlit Cloud or deployed link here)
-
----
 
 ## 🧠 Project Overview
 
@@ -67,11 +63,8 @@ StudyMate uses a separate authentication backend for secure user management.
 
 ---
 
-## 🚀 Live Demo
 
-> Coming soon... (Add your Streamlit Cloud or deployed link here)
 
----
 
 ## 🧠 Project Overview
 
