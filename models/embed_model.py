@@ -1,24 +1,3 @@
-# from sentence_transformers import SentenceTransformer
-# import faiss
-# import numpy as np
-
-# class EmbeddingRetriever:
-#     def __init__(self, model_name="all-MiniLM-L6-v2"):
-#         # DO NOT manually call .to("cpu") or .to(device) — let SentenceTransformer handle it
-#         self.model = SentenceTransformer(model_name, cache_folder="./hf-cache")
-
-#         self.index = faiss.IndexFlatL2(384)
-#         self.chunks = []
-
-#     def index_chunks(self, chunks):
-#         embeddings = self.model.encode(chunks)
-#         self.index.add(np.array(embeddings).astype("float32"))
-#         self.chunks = chunks
-
-#     def get_top_k_chunks(self, query, k=3):
-#         q_emb = self.model.encode([query])
-#         D, I = self.index.search(np.array(q_emb).astype("float32"), k)
-#         return [self.chunks[i] for i in I[0] if i < len(self.chunks)]
 
 
 
