@@ -1,3 +1,10 @@
+
+# 🔐 **Authentication Backend for StudyMate**
+
+**This repository contains the authentication backend for the StudyMate project.**  
+GitHub Repo: [StudyMate Auth – bonguchandu123/studymateAuth](https://github.com/bonguchandu123/studymateAuth)
+
+
 # 📚 StudyMate – AI-Powered PDF-Based Q&A System for Students
 
 ![StudyMate Banner](https://github.com/user-attachments/assets/1399b023-cbaf-43fc-9419-d77d69ee18f1)
